@@ -6,129 +6,160 @@
   <title>Your Website</title>
 </head>
 <style type="text/css">
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #ffd05a;
-  color: black;
-  padding: 10px 0;
-}
-.text-center{
-    font-style: initial;
-}
-img{
-    background-image: grey;
-}
-.container {
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-.navbar-light .navbar-nav .nav-link {
-    color: black;
+    header {
+        background-color: #ffd05a;
+        color: black;
+        padding: 10px 0;
+    }
+    .text-center{
+        font-style: initial;
+    }
+    img{
+        background-image: grey;
+    }
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
         padding-right: 0.5rem;
-    padding-left: 3.5rem;
-    font-weight: bold;
-}
-button {
-  background-color: blue;
-  color: white; 
-  padding: 10px 20px; 
-  border: none;
-  cursor: pointer;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.background-container {
-  background: url('https://themewagon.github.io/tutor/images/hero_bg.jpg') center/cover no-repeat;
-  height: 400px;
-  overflow: auto; 
-}
-
-.content {
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.text-center {
-    text-align: center!important;
-}
-.test{
-    margin: auto;
-}
+        padding-left: 3.5rem;
+        font-weight: bold;
+    }
+    button {
+        background-color: blue;
+        color: white; 
+        padding: 10px 20px; 
+        border: none;
+        cursor: pointer;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .background-container {
+        background: url('https://themewagon.github.io/tutor/images/hero_bg.jpg') center/cover no-repeat;
+        height: 400px;
+        overflow: auto; 
+    }
+    .content {
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    .test{
+        margin: auto;
+    }
+    .subscription-plan {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .plan-header {
+        
+        color: white;
+        padding: 8px;
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+    }
+    .plan-header img {
+        max-width: 100%;
+        height: 20vh;
+    }
+    .plan-details {
+        padding: 10px;
+    }
+    .price {
+        font-size: 18px;
+/*        color: #e74c3c;*/
+        text-decoration: line-through;
+    }
+    .discount-price {
+        font-size: 24px;
+        color: #2ecc71;
+    }
+    button {
+        background-color: #3498db;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    p{
+        display: -webkit-inline-box;
+        color: black;
+        font-weight: bold;
+    }
 </style>
 <body>
-
-<header>
-    <div class="text-center">Next batch starting from 3rd February, 2024.<div class="text-center">Avail <span class="fw-7">60% off</span> now!</div></div>
-    <!-- <div class="text"><div><div class="fw-8 text-center">0</div>Days</div> : <div><div class="fw-8 text-center">6</div>Hours</div> : <div><div class="fw-8 text-center">21</div>Mins</div> : <div><div class="fw-8 text-center">44</div>Secs</div></div> -->
-</header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <img src="https://i.postimg.cc/8PytfQ5h/new.png" alt="" class="img-fluid" width="70px">
-    <div class="container" >
-      <ul class="navbar-nav">
-        <li class="nav-item active" style="color: black;">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item" style="color: black;">
-          <a class="nav-link" href="#">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Instructors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Request Callback</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Jobs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Podcast</a>
-        </li>
-        <li class="nav-item">
-        <button>LOGIN | SIGNUP</button>
-        </li>
-
-      </ul>
-
-    </div>
-  </nav>
-
+    <header>
+        <div class="text-center">Next batch starting from 3rd February, 2024.<div class="text-center">Avail <span class="fw-7">60% off</span> now!</div></div>
+        <!-- <div class="text"><div><div class="fw-8 text-center">0</div>Days</div> : <div><div class="fw-8 text-center">6</div>Hours</div> : <div><div class="fw-8 text-center">21</div>Mins</div> : <div><div class="fw-8 text-center">44</div>Secs</div></div> -->
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <img src="https://i.postimg.cc/8PytfQ5h/new.png" alt="" class="img-fluid" width="70px">
+        <div class="container" >
+            <ul class="navbar-nav">
+                <li class="nav-item active" style="color: black;">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item" style="color: black;">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Instructors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Request Callback</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Podcast</a>
+                </li>
+                <li class="nav-item">
+                <button>LOGIN | SIGNUP</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="background-container">
         <!-- <div class="centered">Centered</div> -->
     </div>
@@ -138,35 +169,85 @@ button {
         </div>
     </div>
     <div class="container" style="background-color: rgb(238, 245, 255);">
-        <div class="row" style="justify-content: center;">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./assets/PB.png" class="card-img-top" alt="Image">
-                    <h7>Features of Java Programming Language</h7>
-                    <p4 class="text-danger">0 Comment</p4>
-                    <p2>Why Java is a Popular Programming Language ? Java happens to be a very popular programming language</p2>
-                </div>
+        <div class="subscription-plan">
+            <div class="plan-header">
+               <img src="./assets/dsa.png">
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./assets/mern.png" class="card-img-top" alt="Image">
-                    <h7>Features of Java Programming Language</h7>
-                    <p4 class="text-danger">0 Comment</p4>
-                    <p2>Why Java is a Popular Programming Language ? Java happens to be a very popular programming language</p2>
+            <div class="plan-details">
+                <div class="d-flex align-items-center"><span class="badge me-2" style="background-color: rgb(127 199 217 / 97%); color: white; font-weight: bold;">Intern</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color:  rgb(127 199 217 / 97%);color: white; font-weight: bold;">Students</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color:  rgb(127 199 217 / 97%);color: white; font-weight: bold;">SDE-1/2/3</span>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./assets/mjpeg" class="card-img-top" alt="Image">
-                    <h7>Where Is Java Used In Industry?</h7>
-                    <p4 class="text-danger">0 Comment</p4>
-                    <p2>Where is Java being used? As a fresher, you might be wondering where Java is being used. You will no</p2>
-                </div>
+                <p>hi</p>
+                <ul>
+                    <div class="live" style="font-weight: bold;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9 10v8l7-4zm12-4h-7.58l3.29-3.29L16 2l-4 4h-.03l-4-4-.69.71L10.56 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H3V8h18v12z"></path></svg>&nbsp;&nbsp;&nbsp;120+ Live Classes &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path d="M17 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H7V0H9V2H15V0H17V2ZM17 4V6H15V4H9V6H7V4H5V20H19V4H17ZM7 8H17V10H7V8ZM7 12H17V14H7V12Z"></path></svg>&nbsp;&nbsp;&nbsp;100+ Quizzes &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 5.18L10.59 16.6l-4.24-4.24 1.41-1.41 2.83 2.83 10-10L22 5.18zM12 20c-4.41 0-8-3.59-8-8s3.59-8 8-8c1.57 0 3.04.46 4.28 1.25l1.45-1.45A10.02 10.02 0 0012 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.73 0 3.36-.44 4.78-1.22l-1.5-1.5c-1 .46-2.11.72-3.28.72zm7-5h-3v2h3v3h2v-3h3v-2h-3v-3h-2v3z"></path></svg>&nbsp;&nbsp;&nbsp;Live Projects+ Resources &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>&nbsp;&nbsp;&nbsp;Live Doubt Support &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path d="M5 8V20H19V8H5ZM5 6H19V4H5V6ZM20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM7 10H11V14H7V10ZM7 16H17V18H7V16ZM13 11H17V13H13V11Z"></path></svg>&nbsp;&nbsp;&nbsp;Interview Questions Covered &nbsp;</li>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="red" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: red;"><path d="M12 11.16c.887-.933 1.813-1.865 2.78-2.6C15.952 7.668 17.267 7 18.75 7 21.657 7 24 9.615 24 12.25s-2.343 5.25-5.25 5.25c-1.483 0-2.798-.668-3.97-1.56-.967-.735-1.893-1.667-2.78-2.6-.887.933-1.813 1.865-2.78 2.6-1.172.892-2.487 1.56-3.97 1.56C2.343 17.5 0 14.885 0 12.25S2.343 7 5.25 7c1.483 0 2.798.667 3.97 1.56.967.735 1.893 1.667 2.78 2.6ZM5.25 8.5c-2.032 0-3.75 1.895-3.75 3.75S3.218 16 5.25 16c1.017 0 2.014-.457 3.062-1.253.89-.678 1.758-1.554 2.655-2.497-.897-.943-1.765-1.82-2.655-2.497C7.264 8.957 6.267 8.5 5.25 8.5Zm7.783 3.75c.897.943 1.765 1.82 2.655 2.497C16.736 15.543 17.733 16 18.75 16c2.032 0 3.75-1.895 3.75-3.75S20.782 8.5 18.75 8.5c-1.017 0-2.014.457-3.062 1.253-.89.678-1.758 1.554-2.655 2.497Z"></path></svg>&nbsp;&nbsp;&nbsp;Lifetime Access &nbsp;</li>
+                </ul>
+                <div class="live" style="color: red;">(60% OFF)</div>
+                <span class="price" style="color: grey; margin: 10px;">₹10,000 &nbsp;&nbsp;<p>₹4,000<p></span>&nbsp;&nbsp
+                <button>Know more</button>
             </div>
         </div>
+        <div class="subscription-plan">
+            <div class="plan-header">
+                <img src="./assets/mern.png">
+            </div>
+            <div class="plan-details">
+                <div class="d-flex align-items-center"><span class="badge me-2" style="background-color: rgb(127 199 217 / 97%); color: white; font-weight: bold;">Intern</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color: rgb(127 199 217 / 97%);color: white; font-weight: bold;">Students</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color: rgb(127 199 217 / 97%);color: white; font-weight: bold;">SDE-1/2/3</span>
+                </div>
+                <p>hi</p>
+                <ul>
+                    <div  class="live" style="font-weight: bold;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9 10v8l7-4zm12-4h-7.58l3.29-3.29L16 2l-4 4h-.03l-4-4-.69.71L10.56 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H3V8h18v12z"></path></svg>&nbsp;&nbsp;&nbsp;65+ Live Classes &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path d="M17 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H7V0H9V2H15V0H17V2ZM17 4V6H15V4H9V6H7V4H5V20H19V4H17ZM7 8H17V10H7V8ZM7 12H17V14H7V12Z"></path></svg>&nbsp;&nbsp;&nbsp;10+ Live Projects &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 5.18L10.59 16.6l-4.24-4.24 1.41-1.41 2.83 2.83 10-10L22 5.18zM12 20c-4.41 0-8-3.59-8-8s3.59-8 8-8c1.57 0 3.04.46 4.28 1.25l1.45-1.45A10.02 10.02 0 0012 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.73 0 3.36-.44 4.78-1.22l-1.5-1.5c-1 .46-2.11.72-3.28.72zm7-5h-3v2h3v3h2v-3h3v-2h-3v-3h-2v3z"></path></svg>&nbsp;&nbsp;&nbsp;64+ Downloadable Resources &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>&nbsp;&nbsp;&nbsp;Live Doubt Support &nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path d="M5 8V20H19V8H5ZM5 6H19V4H5V6ZM20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM7 10H11V14H7V10ZM7 16H17V18H7V16ZM13 11H17V13H13V11Z"></path></svg>&nbsp;&nbsp;&nbsp;Interview Questions Covered &nbsp;</li>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="green" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: green;"><path d="M12 11.16c.887-.933 1.813-1.865 2.78-2.6C15.952 7.668 17.267 7 18.75 7 21.657 7 24 9.615 24 12.25s-2.343 5.25-5.25 5.25c-1.483 0-2.798-.668-3.97-1.56-.967-.735-1.893-1.667-2.78-2.6-.887.933-1.813 1.865-2.78 2.6-1.172.892-2.487 1.56-3.97 1.56C2.343 17.5 0 14.885 0 12.25S2.343 7 5.25 7c1.483 0 2.798.667 3.97 1.56.967.735 1.893 1.667 2.78 2.6ZM5.25 8.5c-2.032 0-3.75 1.895-3.75 3.75S3.218 16 5.25 16c1.017 0 2.014-.457 3.062-1.253.89-.678 1.758-1.554 2.655-2.497-.897-.943-1.765-1.82-2.655-2.497C7.264 8.957 6.267 8.5 5.25 8.5Zm7.783 3.75c.897.943 1.765 1.82 2.655 2.497C16.736 15.543 17.733 16 18.75 16c2.032 0 3.75-1.895 3.75-3.75S20.782 8.5 18.75 8.5c-1.017 0-2.014.457-3.062 1.253-.89.678-1.758 1.554-2.655 2.497Z"></path></svg>&nbsp;&nbsp;&nbsp;Lifetime Access &nbsp;</li>
+                </ul>
+                <div class="live" style="color: green;">(60% OFF)</div>
+                <span class="price" style="color: grey; margin: 10px;">₹10,000 &nbsp;&nbsp;<p>₹4,000<p></span>&nbsp;&nbsp;
+                <button>know more</button>
+            </div>
+        </div>
+        <div class="subscription-plan">
+            <div class="plan-header">
+                <img src="./assets/PB.png">
+            </div>
+            <div class="plan-details">
+                <div class="d-flex align-items-center"><span class="badge me-2" style="background-color: rgb(127 199 217 / 97%); color: white; font-weight: bold;">Intern</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color: rgb(127 199 217 / 97%);color: white; font-weight: bold;">Students</span>&nbsp;&nbsp;<span class="badge me-2" style="background-color: rgb(127 199 217 / 97%);color: white; font-weight: bold;">SDE-1/2/3</span>
+                </div>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="yellow" class="bi bi-star" viewBox="0 0 16 16">
+                    <polygon points="8 0 10 5 15 5 11.25 8.75 12.5 14.5 8 11 3.5 14.5 4.75 8.75 1 5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="yellow" class="bi bi-star" viewBox="0 0 16 16">
+                    <polygon points="8 0 10 5 15 5 11.25 8.75 12.5 14.5 8 11 3.5 14.5 4.75 8.75 1 5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="yellow" class="bi bi-star" viewBox="0 0 16 16">
+                    <polygon points="8 0 10 5 15 5 11.25 8.75 12.5 14.5 8 11 3.5 14.5 4.75 8.75 1 5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="yellow" class="bi bi-star" viewBox="0 0 16 16">
+                    <polygon points="8 0 10 5 15 5 11.25 8.75 12.5 14.5 8 11 3.5 14.5 4.75 8.75 1 5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="yellow" class="bi bi-star" viewBox="0 0 16 16">
+                    <polygon points="8 0 10 5 15 5 11.25 8.75 12.5 14.5 8 11 3.5 14.5 4.75 8.75 1 5" />
+                </svg></p>
 
+                <p>4.4</p>
+                <ul>
+                    <div class="live" style="font-weight: bold;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9 10v8l7-4zm12-4h-7.58l3.29-3.29L16 2l-4 4h-.03l-4-4-.69.71L10.56 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H3V8h18v12z"></path></svg>&nbsp;&nbsp;&nbsp;65+ Live Classes&nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path d="M17 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H7V0H9V2H15V0H17V2ZM17 4V6H15V4H9V6H7V4H5V20H19V4H17ZM7 8H17V10H7V8ZM7 12H17V14H7V12Z"></path></svg>&nbsp;&nbsp;&nbsp;40+ Quizzes&nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 5.18L10.59 16.6l-4.24-4.24 1.41-1.41 2.83 2.83 10-10L22 5.18zM12 20c-4.41 0-8-3.59-8-8s3.59-8 8-8c1.57 0 3.04.46 4.28 1.25l1.45-1.45A10.02 10.02 0 0012 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.73 0 3.36-.44 4.78-1.22l-1.5-1.5c-1 .46-2.11.72-3.28.72zm7-5h-3v2h3v3h2v-3h3v-2h-3v-3h-2v3z"></path></svg><span style="margin-top: 10px; padding-top: 20px; color: rgb(25, 25, 25);">&nbsp;&nbsp;&nbsp;400+ Question Solved&nbsp;</span>
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>&nbsp;&nbsp;&nbsp;Live Doubt Support&nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path d="M5 8V20H19V8H5ZM5 6H19V4H5V6ZM20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22ZM7 10H11V14H7V10ZM7 16H17V18H7V16ZM13 11H17V13H13V11Z"></path></svg>&nbsp;&nbsp;&nbsp;Interview Questions Covered&nbsp;
+                    <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="blue" font-size="1.5rem" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path d="M12 11.16c.887-.933 1.813-1.865 2.78-2.6C15.952 7.668 17.267 7 18.75 7 21.657 7 24 9.615 24 12.25s-2.343 5.25-5.25 5.25c-1.483 0-2.798-.668-3.97-1.56-.967-.735-1.893-1.667-2.78-2.6-.887.933-1.813 1.865-2.78 2.6-1.172.892-2.487 1.56-3.97 1.56C2.343 17.5 0 14.885 0 12.25S2.343 7 5.25 7c1.483 0 2.798.667 3.97 1.56.967.735 1.893 1.667 2.78 2.6ZM5.25 8.5c-2.032 0-3.75 1.895-3.75 3.75S3.218 16 5.25 16c1.017 0 2.014-.457 3.062-1.253.89-.678 1.758-1.554 2.655-2.497-.897-.943-1.765-1.82-2.655-2.497C7.264 8.957 6.267 8.5 5.25 8.5Zm7.783 3.75c.897.943 1.765 1.82 2.655 2.497C16.736 15.543 17.733 16 18.75 16c2.032 0 3.75-1.895 3.75-3.75S20.782 8.5 18.75 8.5c-1.017 0-2.014.457-3.062 1.253-.89.678-1.758 1.554-2.655 2.497Z"></path></svg>&nbsp;&nbsp;&nbsp;Lifetime Access&nbsp;</div>
+                </ul>
+                <div class="live" style="color: blue;">(60% OFF)</div>
+                <span class="price" style="color: grey; margin: 10px;">₹10,000 &nbsp;&nbsp;<p>₹4,000<p></span>&nbsp;&nbsp;
+                <button type="button" colorscheme="blue" class="Button_button__Rzx8I sc-imWYAI jgFDwn btn btn-outline-primary rounded btn-sm"><span>Know more </span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 1rem;"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg></button>
+            </div>
+        </div>
     </div>
-
 </body>
 </html>
-
