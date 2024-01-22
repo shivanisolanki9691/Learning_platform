@@ -19,5 +19,20 @@
   },
   "scripts": {
     "build": "webpack"
-  }
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "learning-platform"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC"
 }
