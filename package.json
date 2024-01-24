@@ -17,24 +17,9 @@
     "webpack-dev-server": "^4.15.1"
   },
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=21.4.0"
   },
   "scripts": {
     "build": "webpack"
-  },
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "babel.config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "learning-platform"
-  },
-  "keywords": [
-    "learning"
-  ],
-  "author": "",
-  "license": "ISC"
+  }
 }
