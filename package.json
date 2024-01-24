@@ -21,5 +21,13 @@
   },
   "scripts": {
     "build": "webpack"
+  },
+  "name": "my-package",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "scripts": {
+  "build": "webpack --config webpack.config.js"
   }
 }
