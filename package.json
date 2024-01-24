@@ -1,5 +1,5 @@
 {
-  "name": "learning-platform",
+  "name": "my-package",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
@@ -20,14 +20,6 @@
     "node": ">=21.4.0"
   },
   "scripts": {
-    "build": "webpack"
-  },
-  "name": "my-package",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  },
-  "scripts": {
-  "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js"
   }
 }
