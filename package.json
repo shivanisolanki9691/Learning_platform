@@ -21,7 +21,6 @@
   "engines": {
     "node": ">=21.4.0"
   },
-  "name": "my-package",
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest"
