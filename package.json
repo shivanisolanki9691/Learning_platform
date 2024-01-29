@@ -26,5 +26,11 @@
   },
   "scripts": {
     "build": "webpack"
+  },
+  "scripts": {
+  "start": "webpack-dev-server --open",
+  "build": "webpack",
+  // ... other scripts
   }
+
 }
