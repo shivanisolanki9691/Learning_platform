@@ -25,10 +25,6 @@
     "node": ">=21.4.0"
   },
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  },
-  "scripts": {
-  "build": "webpack"
-}
+    "build": "webpack"
+  }
 }
