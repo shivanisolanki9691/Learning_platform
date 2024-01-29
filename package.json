@@ -24,5 +24,8 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "jest"
-  }
+  },
+  "scripts": {
+  "build": "webpack"
+}
 }
