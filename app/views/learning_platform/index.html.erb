@@ -12,12 +12,6 @@
         padding: 0;
         background-color: #80808017;
     }
-
-    header {
-        background-color: #ffd05a;
-        color: black;
-        padding: 10px 0;
-    }
     .text-center{
         font-style: initial;
     }
@@ -57,6 +51,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
 
     }
     .content {
@@ -159,28 +154,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-/*        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');*/
-
-
-/**, *::before, *::after{
-  box-sizing: border-box;
-}*/
-
-/*body{
-  font-family: 'Lato', sans-serif;
-  background-color: #ded2ff;
-  color: #42225e;
-}*/
-
 h1{
   margin: 50px 0 30px;
   text-align: center;
@@ -261,33 +234,39 @@ h1{
 h3{
     font-size: 15px;
 }
+.subscription-plan.mern-stack {
+    margin-left: -159px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 </style>
 <body>
-    <header>
-        <div class="text-center">Next batch starting from 3rd February, 2024.<div class="text-center">Avail <span class="fw-7">60% off</span> now!</div></div>
-        <!-- <div class="text"><div><div class="fw-8 text-center">0</div>Days</div> : <div><div class="fw-8 text-center">6</div>Hours</div> : <div><div class="fw-8 text-center">21</div>Mins</div> : <div><div class="fw-8 text-center">44</div>Secs</div></div> -->
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <%= render "header" %>
+    <nav class="navbar navbar-expand-lg navbar-light bg-#80808017">
         <img src="https://i.postimg.cc/8PytfQ5h/new.png" alt="" class="img-fluid" width="70px">
         <div class="container" >
             <ul class="navbar-nav">
                 <li class="nav-item active" style="color: black;">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/learning_platform">Home</a>
                 </li>
                 <li class="nav-item" style="color: black;">
-                  <a class="nav-link" href="#">Courses</a>
+                  <a class="nav-link" href="#Courses">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Instructors</a>
+                  <a class="nav-link" href="#Instructors">Instructors</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Request Callback</a>
+                  <a class="nav-link" href="#Request Callback">Request Callback</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Jobs</a>
+                  <a class="nav-link" href="/jobs">Jobs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Podcast</a>
+                  <a class="nav-link" href="/procast">Podcast</a>
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
                 <button class="button" style="background-color: blue; color: white; padding: 6px 20px; border: none;cursor: pointer;">LOGIN | SIGNUP</button>
@@ -295,13 +274,14 @@ h3{
             </ul>
         </div>
     </nav>
+    
 
 
 
     <div class="background-container">
-        <div class="row sde-ready">
-            <div class="col-lg-8">
-                <h1><span style="color: black; text-shadow: white 2px 0px; font-weight: bold;">Get SDE Ready</span></h1><br>
+        <div class="background-container" style="background: rgb(18 17 17 / 46%); margin-left: 0px; margin-top: 1px; width: 100%;">
+            <div class="col-lg-8" style="margin-left: 130px; max-width: 63.666667%;">
+                <h1><span style="color: black; text-shadow: white 2px 0px; font-weight: bold; margin-right: 478px;">Get SDE Ready</span></h1><br>
                 <h2 style="font-weight: bold; color: white;font-size: 24px"><strong style="color: rgb(78 79 82 / 96%);">Empowering Future Innovators:</strong> Your Pathway to Software Development Excellence</h2><br>
 
                 <button class="button" style="background-color: #58585c;">Explore our courses</button>
@@ -313,13 +293,13 @@ h3{
 
 
 
-<!--     <div class="container" style="background-color: rgb(238, 245, 255);"><br>
+    <div class="container" style="background-color: rgb(238, 245, 255);"><br>
         <div class="test" style="font-weight: bold; font-size: 33px;">
             <br>
-            <div class="join">Courses</div>
+            <div class="join" id="Courses">Courses</div>
         </div>
-    </div> -->
-    <h1>Courses</h1>
+    </div>
+    
     <div class="container" style="background-color: rgb(238, 245, 255);">
         <div class="subscription-plan">
             <div class="plan-header">
@@ -445,9 +425,9 @@ h3{
             </div>
         </div>
     </div>
-    <div class="hy" style="padding: 0px 255px;">
+    <div class="hy" style="padding: 0px 25px;">
     <div class="container" style="background-color: rgb(238, 245, 255);">
-        <div class="subscription-plan">
+        <div class="subscription-plan mern-stack">
             <div class="plan-header">
                <img src="./assets/dsa.png">
             </div>
@@ -715,7 +695,8 @@ h3{
 
    <%= render "recommendation" %>
 
-    <h1>Contact Us</h1>
+    
+    <h1 id="Request Callback">Contact Us</h1>
     <%= render "contact" %>
 
     <%= render "footer" %>
