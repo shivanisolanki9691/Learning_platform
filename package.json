@@ -21,22 +21,9 @@
   "engines": {
     "node": ">=21.4.0"
   },
+  "name": "my-package",
   "scripts": {
-    "build": "webpack"
-  },
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "babel.config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "Learning_platform"
-  },
-  "keywords": [
-    "platform"
-  ],
-  "author": "platform",
-  "license": "ISC"
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
 }
