@@ -12,6 +12,9 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "webpack": "^5.90.0",
