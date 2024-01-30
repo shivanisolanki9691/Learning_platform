@@ -23,9 +23,10 @@
     "webpack-dev-server": "^4.15.1"
   },
   "engines": {
-    "node": ">=10.17.0"
+    "node": ">=21.4.0"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "babel src -d lib",
+    "test": "jest"
   }
 }
