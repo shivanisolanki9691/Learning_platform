@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/pixoatic/.nvm/v0.9.12/bin/node',
+1 verbose cli   '/home/pixoatic/.nvm/v0.9.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yarn' ]
+2 info using npm@1.2.12
+3 info using node@v0.9.12
+4 verbose read json /home/pixoatic/.nvm/v0.9.12/lib/package.json
+5 verbose read json /home/pixoatic/.nvm/v0.9.12/lib/package.json
+6 verbose cache add [ 'yarn', null ]
+7 verbose cache add name=undefined spec="yarn" args=["yarn",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'yarn',
+8 verbose parsed url   path: 'yarn',
+8 verbose parsed url   href: 'yarn' }
+9 silly lockFile d19a2519-yarn yarn
+10 verbose lock yarn /home/pixoatic/.npm/d19a2519-yarn.lock
+11 silly lockFile d19a2519-yarn yarn
+12 silly lockFile d19a2519-yarn yarn
+13 verbose addNamed [ 'yarn', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile d5475ddd-yarn yarn@
+16 verbose lock yarn@ /home/pixoatic/.npm/d5475ddd-yarn.lock
+17 silly addNameRange { name: 'yarn', range: '', hasData: false }
+18 verbose url raw yarn
+19 verbose url resolving [ 'https://registry.npmjs.org/', './yarn' ]
+20 verbose url resolved https://registry.npmjs.org/yarn
+21 info trying registry request attempt 1 at 12:59:28
+22 http GET https://registry.npmjs.org/yarn
+23 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+24 info trying registry request attempt 2 at 12:59:38
+25 http GET https://registry.npmjs.org/yarn
+26 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+27 info trying registry request attempt 3 at 13:00:38
+28 http GET https://registry.npmjs.org/yarn
+29 silly lockFile d5475ddd-yarn yarn@
+30 silly lockFile d5475ddd-yarn yarn@
+31 error Error: CERT_UNTRUSTED
+31 error     at SecurePair.<anonymous> (tls.js:1271:32)
+31 error     at SecurePair.EventEmitter.emit (events.js:91:17)
+31 error     at SecurePair.maybeInitFinished (tls.js:883:10)
+31 error     at CleartextStream.read [as _read] (tls.js:421:15)
+31 error     at CleartextStream.Readable.read (_stream_readable.js:283:10)
+31 error     at EncryptedStream.write [as _write] (tls.js:330:25)
+31 error     at doWrite (_stream_writable.js:211:10)
+31 error     at writeOrBuffer (_stream_writable.js:201:5)
+31 error     at EncryptedStream.Writable.write (_stream_writable.js:172:11)
+31 error     at write (_stream_readable.js:528:24)
+32 error If you need help, you may report this log at:
+32 error     <http://github.com/isaacs/npm/issues>
+32 error or email it to:
+32 error     <npm-@googlegroups.com>
+33 error System Linux 6.2.0-39-generic
+34 error command "/home/pixoatic/.nvm/v0.9.12/bin/node" "/home/pixoatic/.nvm/v0.9.12/bin/npm" "install" "-g" "yarn"
+35 error cwd /home/pixoatic/Learning_platform
+36 error node -v v0.9.12
+37 error npm -v 1.2.12
+38 verbose exit [ 1, true ]
