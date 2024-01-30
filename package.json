@@ -18,7 +18,7 @@
     "webpack-dev-server": "^3"
   },
   "engines": {
-    "node": ">=21.4.0"
+    "node": ">=21.6.1"
   },
   "scripts": {
     "build": "babel src -d lib",
