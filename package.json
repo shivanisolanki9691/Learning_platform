@@ -31,7 +31,7 @@
 
 
 {
-  "name": "learning_platform",
+  "name": "learning-platform",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-methods": "^version_number",
