@@ -1,47 +1,25 @@
-// {
-//   "name": "my-package",
-//   "private": true,
-//   "dependencies": {
-//     "@rails/actioncable": "^6.0.0",
-//     "@rails/activestorage": "^6.0.0",
-//     "@rails/ujs": "^6.0.0",
-//     "@rails/webpacker": "5.4.4",
-//     "package-json": "^8.1.1",
-//     "package-name": "^0.1.0",
-//     "turbolinks": "^5.2.0"
-//   },
-//   "version": "0.1.0",
-//   "devDependencies": {
-//     "@babel/cli": "^7.23.9",
-//     "@babel/core": "^7.23.9",
-//     "@babel/preset-env": "^7.23.9",
-//     "babel-cli": "^6.26.0",
-//     "babel-preset-env": "^1.7.0",
-//     "webpack": "^5.90.0",
-//     "webpack-cli": "^5.1.4",
-//     "webpack-dev-server": "^4.15.1"
-//   },
-//   "engines": {
-//     "node": ">=21.4.0"
-//   },
-//   "scripts": {
-//     "build": "webpack"
-//   }
-// }
-
-
 {
-  "name": "learning-platform",
+  "name": "my-package",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-private-methods": "^version_number",
-    "@rails/webpacker": "^5.4.4"
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.4",
+    "package-json": "^8.1.1",
+    "package-name": "^0.1.0",
+    "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack": "^4.46.0",
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^3"
+    "webpack-dev-server": "^4.15.1"
   },
   "engines": {
     "node": ">=21.4.0"
@@ -51,4 +29,5 @@
     "test": "jest"
   }
 }
+
 
